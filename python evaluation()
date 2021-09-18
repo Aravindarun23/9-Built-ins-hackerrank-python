@@ -1,0 +1,15 @@
+Sample Input
+
+print(2 + 3)
+
+Sample Output
+
+5
+
+
+
+----------------------ANSWER-----------------------
+
+
+s=input()
+eval(s)
