@@ -1,0 +1,35 @@
+Sample Input
+
+5 3
+89 90 78 93 80
+90 91 85 88 86  
+91 92 83 89 90.5
+
+Sample Output
+
+90.0 
+91.0 
+82.0 
+90.0 
+85.5        
+
+
+
+--------------------ANSWER------------------------------
+
+
+
+# Enter your code here. Read input from STDIN. Print output to STDOUT
+n,m=map(int,input().split())
+z=[]
+for i in range(m):
+    z.append(list(map(float,input().split())))
+zipval=list(zip(*z))
+s=0
+for j in zipval:
+    s=0
+    for k in j:
+        s+=k
+    print(s/m)
+        
+        
