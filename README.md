@@ -2,3 +2,4 @@
 
 1) Zipped
 2) input()
+3) python evaluation
