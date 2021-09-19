@@ -4,3 +4,4 @@
 2) input()
 3) python evaluation
 4) any or all
+5) ginorts
