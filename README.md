@@ -5,3 +5,4 @@
 3) python evaluation
 4) any or all
 5) ginorts
+6) athletic sort
